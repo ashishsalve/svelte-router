@@ -6,7 +6,12 @@
   "main": "lib/cjs/index.js",
   "browser": "lib/index.js",
   "module": "lib/esm/index.js",
-  "svelte": "src/index.js",
+  "svelte": "dist/index.js",
+  "exports": {
+    ".": {
+      "svelte":"./dist/index.js"
+    }
+  },
   "unpkg": "lib/index.min.js",
   "types": "types/index.d.ts",
   "scripts": {
