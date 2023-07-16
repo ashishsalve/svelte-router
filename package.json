@@ -7,6 +7,11 @@
   "browser": "lib/index.js",
   "module": "lib/esm/index.js",
   "svelte": "lib/esm/index.js",
+   "exports": {
+   ".": {
+     "svelte": "./dist/index.js"
+   }
+  }
   "unpkg": "lib/index.min.js",
   "types": "types/index.d.ts",
   "scripts": {
