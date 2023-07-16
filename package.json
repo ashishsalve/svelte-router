@@ -6,7 +6,8 @@
   "main": "lib/cjs/index.js",
   "browser": "lib/index.js",
   "module": "lib/esm/index.js",
-  "svelte": "lib/esm/index.js",
+  "files":["dist"],
+  "svelte": "dist/index.js",
    "exports": {
    ".": {
      "svelte": "./dist/index.js"
