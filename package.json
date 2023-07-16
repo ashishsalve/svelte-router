@@ -11,7 +11,7 @@
    ".": {
      "svelte": "./dist/index.js"
    }
-  }
+  },
   "unpkg": "lib/index.min.js",
   "types": "types/index.d.ts",
   "scripts": {
