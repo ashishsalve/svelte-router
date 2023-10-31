@@ -138,7 +138,4 @@ if (typeof window !== 'undefined') {
     navigateTo(navigatePathname, null, false);
   };
 }
-const getActiveRoute = () =>{
-  console.log(3554545);
-}
-export { SpaRouter, localisedRoute, navigateTo, routeIsActive,getActiveRoute };
+export { SpaRouter, localisedRoute, navigateTo, routeIsActive };
